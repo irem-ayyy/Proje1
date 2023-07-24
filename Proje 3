@@ -1,0 +1,62 @@
+# Proje 3
+Binary Search Tree (BST) bir sıralı ikili ağaçtır. Ağaçtaki her düğüm, sol tarafındaki düğümden daha küçük ve sağ tarafındaki düğümden daha büyük bir değeri temsil eder. İşte verilen dizinin BST aşamaları:
+
+Verilen dizi: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Adım: 7 (root)
+5
+Adım: 7 (root)
+5
+1
+Adım: 7 (root)
+5
+1
+8
+Adım: 7 (root)
+5
+1
+8
+/
+3
+Adım: 7 (root)
+5
+1
+8
+/
+3 6
+Adım: 7 (root)
+5
+1
+8
+/
+3 6
+/
+0
+Adım: 7 (root)
+5
+1
+8
+/
+3 6
+/
+0 9
+Adım: 7 (root)
+5
+1
+8
+/
+3 6
+/
+0 9
+4
+Adım: 7 (root)
+5
+1
+8
+/
+3 6
+/
+0 9
+4
+2
+Binary Search Tree'in aşamaları bu şekilde ilerler. Dizi elemanları sırayla ağaca eklenirken, BST'nin kurallarına uygun olarak düğümler yerleştirilir.
